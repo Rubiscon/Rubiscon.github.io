@@ -1,30 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <title>Rubiscon</title>
-    
-    <!-- 引入字体 -->
-    <link rel="stylesheet" href="twentytwentyfive/assets/fonts/fira-code/style.css">
-    <link rel="stylesheet" href="twentytwentyfive/assets/fonts/literata/style.css">
-    
-    <!-- 引入主题样式 -->
-    <link rel="stylesheet" href="twentytwentyfive/assets/css/style.css">
-    
-    <!-- 自定义样式可以保留并覆盖主题默认值 -->
-    <style type="text/css">
-        .container {
-            margin: 0 auto;
-            width: 50%;
-        }
-    </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rubiscon</title>
+	<meta name="description" content="Rubiscon — personal blog">
+	<link rel="stylesheet" href="twentytwentyfive/assets/css/style.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Rubiscon</h1>
-        <p>2025.9.24  10:02</p>
-        <p>2025.9.26  20:39</p>
-        <p>2025.9.27  10:50</p>
-    </div>
+<body class="home blog">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div class="wp-site-blocks">
+		<header class="site-header">
+			<div class="has-global-padding is-layout-constrained">
+				<div class="alignwide is-layout-flex is-nowrap is-content-justification-space-between site-header__bar">
+					<p class="wp-block-site-title">
+						<a href="./" rel="home" aria-current="page">Rubiscon</a>
+					</p>
+
+					<div class="site-nav" id="site-nav">
+						<button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-menu">
+							<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+								<path d="M4 7.5h16v1.5H4z"></path>
+								<path d="M4 15h16v1.5H4z"></path>
+							</svg>
+						</button>
+
+						<div class="site-nav__panel" id="primary-menu">
+							<button type="button" class="nav-close" aria-label="Close menu">
+								<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+									<path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path>
+								</svg>
+							</button>
+
+							<nav aria-label="Primary">
+								<ul class="wp-block-navigation">
+									<li><a href="./" aria-current="page">主页(Home)</a></li>
+									<li class="nav-submenu">
+										<button type="button" aria-expanded="false">
+											存档(Archive)
+											<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M1.5 4L6 8l4.5-4" stroke-width="1.5"></path></svg>
+										</button>
+										<ul class="nav-submenu__list">
+											<li><a href="#archive">存档(Archive)</a></li>
+											<li><a href="#notes">笔记(Notes)</a></li>
+										</ul>
+									</li>
+									<li><a href="#about">关于(About)</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="site-main has-global-padding is-layout-constrained" id="content">
+			<ul class="wp-block-post-template alignfull" id="archive">
+				<li class="wp-block-post">
+					<article class="post-card has-global-padding is-layout-constrained is-content-justification-center">
+						<figure class="wp-block-post-featured-image">
+							<a href="#notes-2025-09-27" tabindex="-1" aria-hidden="true">
+								<img src="twentytwentyfive/assets/images/northern-buttercups-flowers.webp" alt="" width="1180" height="787">
+							</a>
+						</figure>
+						<h2 class="wp-block-post-title has-x-large-font-size" id="notes-2025-09-27">
+							<a href="#notes-2025-09-27">Notes</a>
+						</h2>
+						<div class="wp-block-post-content has-medium-font-size">
+							<p>A short note from the archive — placeholder entry for the new homepage.</p>
+							<p><a class="more-link" href="#notes-2025-09-27"><span aria-label="Continue reading Notes">(more…)</span></a></p>
+						</div>
+						<div class="wp-block-post-date has-small-font-size">
+							<time datetime="2025-09-27T10:50:00+09:00"><a href="#notes-2025-09-27">2025年9月27日</a></time>
+						</div>
+					</article>
+				</li>
+
+				<li class="wp-block-post">
+					<article class="post-card has-global-padding is-layout-constrained is-content-justification-center">
+						<h2 class="wp-block-post-title has-x-large-font-size" id="notes-2025-09-26">
+							<a href="#notes-2025-09-26">Notes</a>
+						</h2>
+						<div class="wp-block-post-content has-medium-font-size" id="notes">
+							<p>Another day, another line in the log.</p>
+							<p><a class="more-link" href="#notes-2025-09-26"><span aria-label="Continue reading Notes">(more…)</span></a></p>
+						</div>
+						<div class="wp-block-post-date has-small-font-size">
+							<time datetime="2025-09-26T20:39:00+09:00"><a href="#notes-2025-09-26">2025年9月26日</a></time>
+						</div>
+					</article>
+				</li>
+
+				<li class="wp-block-post">
+					<article class="post-card has-global-padding is-layout-constrained is-content-justification-center">
+						<h2 class="wp-block-post-title has-x-large-font-size" id="notes-2025-09-24">
+							<a href="#notes-2025-09-24">Notes</a>
+						</h2>
+						<div class="wp-block-post-content has-medium-font-size">
+							<p>First entry on this static Twenty Twenty-Five port.</p>
+							<p><a class="more-link" href="#notes-2025-09-24"><span aria-label="Continue reading Notes">(more…)</span></a></p>
+						</div>
+						<div class="wp-block-post-date has-small-font-size">
+							<time datetime="2025-09-24T10:02:00+09:00"><a href="#notes-2025-09-24">2025年9月24日</a></time>
+						</div>
+					</article>
+				</li>
+			</ul>
+		</main>
+
+		<footer class="site-footer has-global-padding is-layout-constrained" id="about">
+			<div class="alignwide">
+				<div class="site-footer__top">
+					<div>
+						<h2 class="wp-block-site-title"><a href="./" rel="home">Rubiscon</a></h2>
+						<p class="wp-block-site-tagline">Personal notes — still finding the shape of things.</p>
+					</div>
+					<div class="site-footer__navs">
+						<nav aria-label="Footer">
+							<ul class="wp-block-navigation is-vertical">
+								<li><a href="./">Blog</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#archive">Archive</a></li>
+							</ul>
+						</nav>
+						<nav aria-label="Footer secondary">
+							<ul class="wp-block-navigation is-vertical">
+								<li><a href="#notes">Notes</a></li>
+								<li><a href="./">Home</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<div class="site-footer__spacer" aria-hidden="true"></div>
+
+				<div class="site-footer__meta">
+					<p>Twenty Twenty-Five</p>
+					<p>Designed with <a href="https://wordpress.org/" rel="nofollow">WordPress</a></p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script>
+		(function () {
+			var nav = document.getElementById("site-nav");
+			if (!nav) return;
+			var openBtn = nav.querySelector(".nav-toggle");
+			var closeBtn = nav.querySelector(".nav-close");
+			var submenu = nav.querySelector(".nav-submenu");
+			var submenuBtn = submenu && submenu.querySelector("button");
+
+			function setOpen(open) {
+				nav.classList.toggle("is-open", open);
+				if (openBtn) openBtn.setAttribute("aria-expanded", open ? "true" : "false");
+				document.body.style.overflow = open ? "hidden" : "";
+			}
+
+			if (openBtn) openBtn.addEventListener("click", function () { setOpen(true); });
+			if (closeBtn) closeBtn.addEventListener("click", function () { setOpen(false); });
+
+			if (submenuBtn) {
+				submenuBtn.addEventListener("click", function () {
+					var open = !submenu.classList.contains("is-open");
+					submenu.classList.toggle("is-open", open);
+					submenuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+				});
+			}
+
+			nav.querySelectorAll("a").forEach(function (link) {
+				link.addEventListener("click", function () { setOpen(false); });
+			});
+		})();
+	</script>
 </body>
 </html>
